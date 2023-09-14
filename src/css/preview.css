@@ -1,0 +1,176 @@
+.preview-head {
+    text-align: left;
+}
+
+.preview-btn {
+    background-color: #C76A97;
+    color: white;
+    font-family: "Kumbh Sans";
+    border: none;
+    font-weight: 600;
+    border-radius: 33px;
+}
+
+.review-rating {
+    border-right: 2px solid rgb(176, 172, 172);
+}
+
+.preview-heading {
+    color: #C76A97;
+    font-size: 40px;
+}
+
+.benefits-2 {
+    border-left: 2px solid rgb(176, 172, 172);
+}
+
+.preview-form {
+    border: 2px solid rgb(176, 172, 172);
+    border-radius: 10px;
+    margin-right: 80px;
+}
+
+.preview-features {
+    border: 2px solid rgb(176, 172, 172);
+    border-radius: 10px;
+}
+
+.features-2 {
+    border-left: 2px solid rgb(176, 172, 172);
+}
+
+.feature-li {
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9B9B9B;
+}
+
+.features-3 {
+    border-left: 2px solid rgb(176, 172, 172);
+}
+
+.preview-features p {
+    color: #9B9B9B;
+}
+
+.Benefits p {
+    color: #9B9B9B;
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.Benefits-head {
+    font-family: "Kumbh Sans";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.form-h6 {
+    font-family: "Kumbh Sans";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.fields{
+    color: red;
+}
+
+.faq {
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: black;
+}
+
+.Curriculum-name {
+    font-family: "Kumbh Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.key {
+    font-family: "Kumbh Sans";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.features-text {
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.accordion-button {
+    background-color: #EDEDED;
+}
+
+.Benefits {
+    border: 2px solid rgb(176, 172, 172);
+    border-radius: 10px;
+}
+
+.curiculum {
+    border: 2px solid rgb(176, 172, 172);
+    border-radius: 10px;
+}
+
+.head-content {
+    font-family: " Kumbh Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.head-text{
+    
+}
+
+.review {
+    align-items: center;
+}
+#outlined-basic{
+    color: black;
+    font-family: "Kumbh Sans";
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.chech2circle{
+    color: #C76A97;
+    
+}

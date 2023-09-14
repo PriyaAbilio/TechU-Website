@@ -1,0 +1,70 @@
+.item-img {
+    width: 134px;
+    height: 101px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .client-head {
+    color: #C76A97;
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .client-text {
+    color: #000;
+    font-family: "Kumbh Sans";
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+   
+  }
+  
+  .student-review {
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  /* .student-img {
+    width: 98px;
+  height: 98px;
+  top: 3954px;
+  left: 301px
+  } */
+  
+  .student-name {
+    font-family: Kumbh Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 20%;
+  }
+  
+  .review-head {
+    color: #C76A97;
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .review-text{
+  font-family: Kumbh Sans;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  }

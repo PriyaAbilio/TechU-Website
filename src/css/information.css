@@ -1,0 +1,46 @@
+.container{
+    margin-top: 50px;
+    border: 1px #B4B4B4 solid;
+    border-radius: 20px;
+}
+.quires{
+    /* border: 1px red solid; */
+   text-align: center;
+   width: 800px;
+
+}
+.quires-p{
+    padding: 20px;
+    color: #C76A97;
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    font-weight: 600 !important;
+    line-height: 29.77px;
+}
+.more{
+    color:black;
+    text-transform: uppercase;
+    font-family: "Kumbh Sans";
+    font-size: 40px;
+    font-weight: 800 !important;
+    line-height: 49.61px;
+}
+.contact-btn{
+    background-color: #C76A97;
+    color: white;
+    font-family: "Kumbh Sans";
+    font-size: 24px;
+    border: 1px solid #C76A97;
+    font-weight: 600 !important;
+    line-height: 29.77px;
+    border-radius: 33px;
+   
+    
+}
+.content{
+    color: black;
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-weight: 400 !important;
+    line-height: 24.8px;
+}

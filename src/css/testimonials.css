@@ -1,0 +1,185 @@
+.test-head {
+
+  text-align: center;
+
+  color: #C76A97;
+
+  font-family: "Kumbh Sans";
+
+  font-size: 24px;
+
+  font-weight: 600;
+
+  line-height: 30px;
+
+}
+
+.card-text {
+  text-align: left;
+}
+
+.student-head {
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: #000000;
+
+  font-family: " Kumbh Sans";
+
+  font-size: 40px;
+
+  font-weight: 800;
+
+  line-height: 50px;
+
+}
+
+
+
+.cards-main {
+
+  background: url('../../public/images/linear.png');
+
+  box-sizing: border-box;
+
+  background-position: center;
+
+  height: 700px;
+
+}
+
+
+
+.cards-wrapper {
+
+  display: flex;
+
+  justify-content: center;
+
+  /* border: 1px red solid; */
+
+
+
+
+
+}
+
+
+
+.card {
+
+
+
+  margin: 0 1em;
+
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+
+  border: none;
+
+  border-radius: 10px;
+
+}
+
+.profile {
+
+  align-items: center;
+
+  column-gap: 12px;
+
+  padding: 15px;
+
+
+
+}
+
+.name {
+
+  font-family: "Kumbh Sans";
+
+  font-size: 30px;
+
+  font-weight: 700;
+
+  line-height: 37px;
+
+}
+
+
+/* own-carousel css */
+.testimonials {
+  overflow: hidden;
+}
+
+.testimonials-carousel {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+}
+
+
+.testimonialscontainer {
+
+  align-items: center;
+  /* width: 5%; */
+  display: flex;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+
+}
+
+.testimonials-slide {
+  /* min-width: 500px; */
+  /* max-width: 400px; */
+  height: 400px;
+  margin: 12px;
+  padding: 5px;
+
+
+}
+
+
+@media only screen and (min-width: 1220px) {
+  .testimonialscontainer {
+    align-items: center;
+    width: 1220px;
+    display: flex;
+    padding: 10px;
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+  }
+
+  .testimonials-slide {
+    min-width: 580px;
+    max-width: 400px;
+    height: 400px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 1219px){
+  .testimonialscontainer {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .testimonials-slide {
+    width: 500px;
+    height: 400px;
+    margin-left: 18px;
+    margin-right: 18px; 
+  }
+}

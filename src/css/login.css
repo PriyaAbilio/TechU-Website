@@ -1,0 +1,328 @@
+.back {
+
+
+    font-family: "Kumbh Sans";
+
+    font-size: 24px;
+
+    font-weight: 400;
+
+
+}
+
+.back-link {
+    text-decoration: none;
+    color: #000;
+}
+ 
+.login-details {
+    text-align: left;
+}
+
+.techu {
+
+    text-align: center;
+
+}
+
+ 
+
+.login-heading {
+
+    font-family: "Kumbh Sans";
+
+    font-size: 36px;
+
+    font-weight: 600;
+
+    line-height: 45px;
+
+    color: black;
+
+}
+
+ 
+
+ 
+
+.form-p {
+
+    font-family: "Kumbh Sans";
+
+    font-size: 24px;
+
+    font-weight: 400;
+
+    line-height: 30px;
+
+    color: black;
+
+}
+
+ 
+
+.forgot {
+
+    font-family: "Kumbh Sans";
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+
+
+    color: red;
+    text-decoration: none;
+
+}
+
+ 
+
+/* input {
+
+    margin-top: 20px;
+
+    width: 300px;
+
+    height: 50px;
+
+    outline: none;
+
+} */
+
+ 
+
+.input-group {
+
+    outline: none;
+
+}
+
+ 
+
+ 
+
+.loginImg {
+
+   
+
+    background-color: #C76A97;
+
+}
+
+ 
+
+ 
+
+.login-btn {
+
+    background-color: #C76A97;
+
+    color: white;
+
+    font-family: "Kumbh Sans";
+
+    font-size: 24px;
+
+    font-weight: 600;
+
+    line-height: 30px;
+
+    border-radius: 33px;
+
+    margin-left: 200px;
+
+    border: none;
+
+ 
+
+}
+
+ 
+
+.loginImg-text {
+
+    font-family: " Kumbh Sans";
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+    line-height: 52px;
+
+    color: white;
+
+}
+
+ 
+
+.login-with {
+
+    font-family: "Kumbh Sans";
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+    line-height: 25px;
+
+}
+
+ 
+
+.facebook {
+
+    border-radius: 50px;
+
+    font-family: "Kumbh Sans";
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+    line-height: 25px;
+
+    color: black;
+    
+
+}
+
+ 
+
+ 
+
+.google {
+
+    font-family: "Kumbh Sans";
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+    line-height: 25px;
+
+    color: black;
+
+    border-radius: 5px;
+
+}
+
+ 
+
+.google-login {
+
+    border-radius: 40px;
+
+    background-color: #ffff;
+    border: 1px solid #B4B4B4;
+
+}
+
+ 
+
+.facebook-login {
+
+    border-radius: 40px;
+    border: 1px solid #B4B4B4;
+    background-color: #fff;
+
+}
+
+ 
+
+.fa-facebook-f {
+
+    color: blue;
+
+}
+
+ 
+
+.fa-google {
+
+    color: orange
+
+}
+
+ 
+
+.signup {
+
+    font-family: Kumbh Sans;
+
+    font-size: 24px;
+
+    font-weight: 400;
+
+    line-height: 30px;
+
+ 
+
+}
+
+ 
+
+.signup-btn {
+
+    font-family: "Kumbh Sans";
+
+    font-size: 24px;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+ 
+
+ 
+
+}
+
+
+.input-box{
+
+    border-bottom: 1px grey solid;
+
+}
+
+.input-email{
+
+    border: none;
+
+    outline: none;
+
+    margin: 10px auto;
+
+   
+
+}
+
+.input-pwd{
+
+    border: none;
+
+    outline: none;
+
+    margin: 10px auto;
+
+ 
+
+}
+
+::placeholder{
+
+    color: #C76A97;
+
+}
+
+.fa{
+
+    margin-right: 10px;
+
+    color: #C76A97;
+
+}
+
+.login-link{
+    color: #C76A97;
+}
