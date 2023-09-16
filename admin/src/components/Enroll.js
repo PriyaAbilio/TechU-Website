@@ -1,12 +1,11 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
-const Users = () => {
-
+const Enroll = () => {
     const [userData, setUserData] = useState([])
 
     const getUserData = async () => {
-        const res = await axios.get("http://localhost:8004/user/allRegister")
+        const res = await axios.get("http://localhost:8004/allEnrolls")
             .then((data) => {
                 setUserData(data.data)
             })
@@ -31,6 +30,8 @@ const Users = () => {
                                 <h5 className="card-title">{val.name}</h5>
                                 <p className="card-text">{val.email}</p>
                                 <p className="card-text">{val.phoneNumber}</p>
+                                <p className="card-text">{val.course}</p>
+                                <p className="card-text">{val.mode}</p>
                                 {/* <a href="#" className="btn btn-primary">Go somewhere</a> */}
                             </div>
                         </div>
@@ -41,4 +42,4 @@ const Users = () => {
     )
 }
 
-export default Users
+export default Enroll

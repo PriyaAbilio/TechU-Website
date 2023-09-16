@@ -41,11 +41,12 @@ export async function UpdateBatch(req, res) {
 }
 
 
-export async function deleteBatch(req,res) {
-    try{
+export async function DeleteBatch(req,res){
+    try {
         await BatchesSchema.findByIdAndDelete(req.params.id)
-        return res.status(200).json({ message: "Batch Deleted" })
-    } catch (err) {
+        return res.status(200).json({ message: "Batch deleted" })
+    }
+    catch (err) {
         console.log(err)
     }
 }

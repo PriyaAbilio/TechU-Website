@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const LoginApi = (details) => {
+export const LoginApi = (details) => {
     try{
         const res = axios.post("http://localhost:8004/user/adminLogin",details)
         return res
@@ -29,4 +29,22 @@ const DeleteBatch =  (id) => {
     }
 }
 
-export default {LoginApi,AllBatches,DeleteBatch};
+const updatebatch = async (id,data) => {
+    try {
+        const response = await axios.patch(`http://localhost:8004/batches/update/${id}`,data);
+        return response;
+    } catch (e) {
+        console.log(e)
+    }
+}
+
+
+const AddBatch = async (data) => {
+   try{
+    const res = await axios.post("http://localhost:8004/batches/upcoming",data)
+   }catch(e){
+    console.log(e)
+   }
+}
+
+export default {LoginApi,AllBatches,DeleteBatch,updatebatch,AddBatch};

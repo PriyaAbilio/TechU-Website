@@ -1,10 +1,10 @@
 import { Router } from "express";
-import { UpdateBatch, addBatch, deleteBatch, getallbatches } from "../controllers/Batch.js";
+import { UpdateBatch, addBatch, DeleteBatch, getallbatches } from "../controllers/Batch.js";
 
 const Route = Router()
 
-Route.post('/Upcoming', addBatch)
+Route.post('/upcoming', addBatch)
 Route.get('/all', getallbatches)
-Route.patch('/Update/:id', UpdateBatch)
-Route.patch('/delete/:id', deleteBatch)
+Route.patch('/update/:id', UpdateBatch)
+Route.delete('/delete/:id', DeleteBatch)
 export default Route
